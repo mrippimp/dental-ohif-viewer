@@ -65,6 +65,8 @@
     "cs3d:unlink": "node libs/@cornerstonejs/scripts/unlink-ohif-cornerstone-node-modules.mjs ."
   },
   "dependencies": {
+    "dental-extension": "link:extensions/dental-extension",
+    "dental-mode": "link:modes/dental-mode",
     "execa": "8.0.1"
   },
   "devDependencies": {

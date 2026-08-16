@@ -139,6 +139,10 @@ module.exports = (env, argv) => {
         path.resolve(__dirname, '../node_modules'),
         path.resolve(__dirname, '../../../node_modules'),
         SRC_DIR,
+        path.resolve(
+          __dirname,
+          '/Users/marlonmalagkit/Projects/ohif/modes/dental-mode/node_modules'
+        ),
       ],
     },
     plugins: [

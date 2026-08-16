@@ -1,0 +1,31 @@
+{
+  "name": "dental",
+  "label": "Dental",
+  "cssVars": {
+    "dark": {
+      "highlight": "190 70% 50%",
+      "neutral": "200 15% 55%",
+      "neutral-light": "195 30% 75%",
+      "neutral-dark": "200 18% 22%",
+      "background": "200 25% 97%",
+      "foreground": "200 20% 12%",
+      "card": "0 0% 100%",
+      "card-foreground": "200 20% 12%",
+      "popover": "0 0% 100%",
+      "popover-foreground": "200 20% 12%",
+      "primary": "190 65% 42%",
+      "primary-foreground": "0 0% 100%",
+      "secondary": "195 30% 88%",
+      "secondary-foreground": "200 20% 20%",
+      "muted": "200 20% 93%",
+      "muted-foreground": "200 15% 40%",
+      "accent": "190 45% 88%",
+      "accent-foreground": "200 20% 15%",
+      "destructive": "0 65% 45%",
+      "destructive-foreground": "0 0% 100%",
+      "border": "200 20% 85%",
+      "input": "200 20% 88%",
+      "ring": "190 65% 42%"
+    }
+  }
+}

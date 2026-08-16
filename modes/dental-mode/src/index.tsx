@@ -8,6 +8,20 @@ const dentalExtensionDependencies = {
   'dental-extension': '^0.0.1',
 };
 
+const dentalRoute = {
+  ...longitudinalRoute,
+  layoutInstance: {
+    ...longitudinalRoute.layoutInstance,
+    props: {
+      ...longitudinalRoute.layoutInstance.props,
+      rightPanels: [
+        ...(longitudinalRoute.layoutInstance.props.rightPanels ?? []),
+        'dental-extension.panelModule.dentalSettings',
+      ],
+    },
+  },
+};
+
 export const modeInstance = {
   ...longitudinalModeInstance,
   // TODO: We're using this as a route segment
@@ -15,7 +29,7 @@ export const modeInstance = {
   id,
   routeName: 'dental',
   displayName: 'Dental',
-  routes: [longitudinalRoute],
+  routes: [dentalRoute],
   extensions: {
     ...longitudinalModeInstance.extensions,
     ...dentalExtensionDependencies,
